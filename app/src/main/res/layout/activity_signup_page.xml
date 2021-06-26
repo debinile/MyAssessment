@@ -6,4 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".SignupPage">
 
+    <TextView
+        android:id="@+id/firstNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <TextView
+        android:id="@+id/lastNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/phoneNumberInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/sexInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/addressInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <Button
+        android:id="@+id/button4Input"
+        android:layout_width="221dp"
+        android:layout_height="35dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="485dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
